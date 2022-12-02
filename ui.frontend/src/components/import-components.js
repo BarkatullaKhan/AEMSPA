@@ -21,3 +21,18 @@ import './Navigation/Navigation';
 import './Header/Header';
 import './Custom/Custom';
 import './Card/Card';
+
+import './MyTeaser/MyTeaser'
+
+import './MyTitle/MyTitle'
+
+import './Title/Title'
+
+import './MyTitleText/MyTitleText'
+
+import './MyProduct/MyProduct'
+import './CardUI/CardUI'
+
+import './ProductDetails/ProductDetails'
+
+import './CartItems/CartItems'

@@ -1,0 +1,24 @@
+
+
+.card-ui-container{
+    height: 400px;
+    /* width: 200px;  */
+    background-color: rgb(234,237,237);
+    text-decoration: none;
+    /* min-width: fit-content; */
+    min-width:340px;
+    /* max-width: 330px; */
+}
+
+.card-img{
+    height: 90%;
+    width: 100%;
+}
+
+.card-container{
+    /* width: 50%; */
+    /* height: 30%; */
+    /* background-color: rgb(255,214,188); */
+    /* margin: 4px; */
+    text-decoration: none;
+}

@@ -17,6 +17,9 @@
 // Use polyfills for modern language features
 // The imports and dependencies can be removed if only modern browsers should be
 // supported
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'react-app-polyfill/stable';
 import 'react-app-polyfill/ie9';
 import 'custom-event-polyfill';
@@ -29,6 +32,10 @@ import { Router } from 'react-router-dom';
 import App from './App';
 import './components/import-components';
 import './index.scss';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+import'../node_modules/font-awesome/css/font-awesome.min.css'
 
 document.addEventListener('DOMContentLoaded', () => {
   ModelManager.initialize().then(pageModel => {

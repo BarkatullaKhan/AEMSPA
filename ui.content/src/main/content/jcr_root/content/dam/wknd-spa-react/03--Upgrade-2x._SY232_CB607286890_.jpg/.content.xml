@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b5fc9147-8519-4826-a5f7-d22f1836cbf9">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-10-11T14:39:33.843+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2022-10-11T14:39:33.306+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="888244aee433f8df882100bcfabe0b8d21dc718a"
+            dam:size="{Long}10011"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}232"
+            tiff:ImageWidth="{Long}372"
+            xmp:CreatorTool="Adobe Photoshop 23.5 (Windows)"
+            xmpMM:DocumentID="xmp.did:E3EDCB56455F11EDBB3BB7E4B28D2CD1"
+            xmpMM:InstanceID="xmp.iid:E3EDCB55455F11EDBB3BB7E4B28D2CD1"
+            xmpMM:OriginalDocumentID="xmp.did:2e61941c-e6c1-7449-abf9-62b34e2d8b83">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:2e61941c-e6c1-7449-abf9-62b34e2d8b83"
+                stRef:instanceID="xmp.iid:66728002-78c1-8c43-91f9-bbc60e1ab518"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

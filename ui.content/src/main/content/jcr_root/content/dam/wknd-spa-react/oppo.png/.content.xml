@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e2627056-2394-4bd9-80d8-bcc898ab9879">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-10-07T16:18:50.550+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmpMM:DocumentID=&quot;xmp.did:B213A5342AC011E99F0EBBC0B6FF13DF&quot; xmpMM:InstanceID=&quot;xmp.iid:B213A5332AC011E99F0EBBC0B6FF13DF&quot; xmp:CreatorTool=&quot;Windows Photo Editor 10.0.10011.16384&quot;> &lt;xmpMM:DerivedFrom stRef:instanceID=&quot;uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b&quot; stRef:documentID=&quot;6C98611EF7F0C3A74274A6FE4C6217E7&quot;/> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2022-10-07T16:18:49.990+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}2"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="dc2c030c786eca321bfa6d1b04e7052f6bbd487b"
+            dam:size="{Long}822113"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1170"
+            tiff:ImageWidth="{Long}1442"
+            xmp:CreatorTool="Windows Photo Editor 10.0.10011.16384"
+            xmpMM:DocumentID="xmp.did:B213A5342AC011E99F0EBBC0B6FF13DF"
+            xmpMM:InstanceID="xmp.iid:B213A5332AC011E99F0EBBC0B6FF13DF">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="6C98611EF7F0C3A74274A6FE4C6217E7"
+                stRef:instanceID="uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

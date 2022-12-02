@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-07-22T15:30:16.818-07:00"
+        cq:lastModified="{Date}2022-10-12T11:18:58.288+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd-spa-react/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -14,117 +14,184 @@
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <text
-                    jcr:lastModified="{Date}2020-05-26T12:11:36.991-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd-spa-react/components/text"
-                    text="&lt;h1 style=&quot;text-align: center;&quot;>&lt;u>What are you doing this WKND?&lt;/u>&lt;/h1>&#xd;&#xa;&lt;div>&lt;u>&amp;nbsp;&lt;/u>&lt;/div>&#xd;&#xa;"
-                    textIsRich="true">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
-                </text>
-                <card
-                    jcr:created="{Date}2020-07-22T11:40:02.876-07:00"
+                <myteaser_1817450450
+                    jcr:created="{Date}2022-10-11T15:04:00.374+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-07-22T15:30:16.814-07:00"
+                    jcr:lastModified="{Date}2022-10-11T15:07:01.885+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd-spa-react/components/card"
-                    altValueFromDAM="true"
-                    cardPath="/content/wknd-spa-react/us/en/home/page-1"
-                    ctaText="Read More"
-                    displayPopupTitle="false"
-                    fileReference="/content/dam/wknd/en/magazine/skitouring/Skitouring6Sjoeberg.JPG"
-                    isDecorative="false"
-                    titleFromPage="true"
-                    titleValueFromDAM="true">
+                    sling:resourceType="wknd-spa-react/components/myteaser"
+                    btnLink="/content/wknd-spa-react/us/en/home/page-2/page-3"
+                    btnText="Go To Page"
+                    fileReference="/content/dam/wknd-spa-react/61rVPssbXEL._SX1500_.jpg"/>
+                <mytitle
+                    jcr:created="{Date}2022-10-11T15:08:50.938+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-11T15:08:58.117+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-react/components/mytitle"
+                    title="Top Deals">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="4"
+                            width="8"/>
+                    </cq:responsive>
+                </mytitle>
+                <cardui_1514307126
+                    jcr:created="{Date}2022-10-10T21:04:02.236+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-11T17:20:14.936+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-react/components/cardui"
+                    cardHeadline="Starting ₹199 | Men's fashion"
+                    cardLink="/content/wknd-spa-react/us/en/home/page-2/page-3">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="4"/>
+                    </cq:responsive>
+                    <cardItems jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            cardImg="/content/dam/wknd-spa-react/Clothing-372-232._SY232_CB607259282_.jpg"
+                            itemLink="/content/wknd-spa-react/us/en/home/category"
+                            itemName="Clothing"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            cardImg="/content/dam/wknd-spa-react/Footwear_Shoes-372-232._SY232_CB607259282_.jpg"
+                            itemLink="/content/wknd-spa-react/us/en/home/page-2"
+                            itemName="Footware"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            cardImg="/content/dam/wknd-spa-react/Watches-372-232._SY232_CB607259282_.jpg"
+                            itemLink="/content/wknd-spa-react/us/en/home/page-2"
+                            itemName="Watches"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            cardImg="/content/dam/wknd-spa-react/Luggage-372-232._SY232_CB607259282_.jpg"
+                            itemLink="/content/wknd-spa-react/us/en/home/category"
+                            itemName="Luggage"/>
+                    </cardItems>
+                </cardui_1514307126>
+                <cardui
+                    jcr:created="{Date}2022-10-11T13:38:41.605+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-11T15:36:36.780+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-react/components/cardui"
+                    cardHeadline="Up to 70% off | Upgrade to latest appliances"
+                    cardLink="/content/wknd-spa-react/us/en/home/page-2">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="4"/>
+                    </cq:responsive>
+                    <cardItems jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            cardImg="/content/dam/wknd-spa-react/01--Upgrade-2x._SY232_CB607286890_.jpg"
+                            itemLink="/content/wknd-spa-react/us/en/home/page-1"
+                            itemName="Front loads | Up to 60% off"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            cardImg="/content/dam/wknd-spa-react/02--Upgrade-2x._SY232_CB607286890_.jpg"
+                            itemLink="/content/wknd-spa-react/us/en/home/page-1"
+                            itemName="Refrigerators | Up to 55% off"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            cardImg="/content/dam/wknd-spa-react/03--Upgrade-2x._SY232_CB607286890_.jpg"
+                            itemLink="/content/wknd-spa-react/us/en/home/page-1"
+                            itemName="Inverter ACs | Upto 60% off"/>
+                    </cardItems>
+                </cardui>
+                <mytitle_380149024
+                    jcr:created="{Date}2022-10-11T15:10:12.896+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-11T15:10:24.986+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-react/components/mytitle"
+                    title="Get Easy EMIs"/>
+                <myteaser
+                    jcr:created="{Date}2022-09-30T15:40:23.077+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-11T17:21:40.975+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-react/components/myteaser"
+                    btnLink="/content/wknd-spa-react/us/en/home/page-2"
+                    btnText="Check Eligibility"
+                    fileReference="/content/dam/wknd-spa-react/P3_GW-editorial_2300x646._CB609056541_.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </myteaser>
+                <mytitle_1959596282
+                    jcr:created="{Date}2022-10-11T15:11:27.753+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-11T15:11:31.896+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-react/components/mytitle"
+                    title="Blockbuster Deals"/>
+                <product
+                    jcr:created="{Date}2022-10-07T11:15:35.285+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-10-12T11:18:58.274+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-react/components/product"
+                    dateTillOffer="{Date}2022-10-13T00:00:00.000+05:30"
+                    fileReference="/content/dam/wknd-spa-react/iphone-13-blue-select-2021.png"
+                    imageMap="\[rect(288,440,709,940)&quot;&quot;|&quot;&quot;|&quot;&quot;]"
+                    isInOfferPeriod="true"
+                    offerDetails="Upto 50% off"
+                    offerName="Big Diwali Sale"
+                    productDescription="CERAMIC SHIELD | DUAL CAMERA | A15 BIONIC"
+                    productPrice="109900.00"
+                    productTitle="Apple iPhone 12 (128GB) - Blue">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="4"/>
-                        <tablet
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="12"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="12"/>
                     </cq:responsive>
-                </card>
-                <card_copy
-                    jcr:created="{Date}2020-07-22T11:40:02.876-07:00"
+                </product>
+                <product_741357958
+                    jcr:created="{Date}2022-10-10T17:28:20.743+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-07-22T15:30:12.310-07:00"
+                    jcr:lastModified="{Date}2022-10-10T17:36:36.611+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd-spa-react/components/card"
-                    altValueFromDAM="true"
-                    cardPath="/content/wknd-spa-react/us/en/home/page-2"
-                    ctaText="Read More"
-                    displayPopupTitle="false"
-                    fileReference="/content/dam/wknd/en/adventures/ski-touring-mont-blanc/AdobeStock_291339093.jpeg"
-                    isDecorative="false"
-                    titleFromPage="true"
-                    titleValueFromDAM="true">
+                    sling:resourceType="wknd-spa-react/components/product"
+                    dateTillOffer="{Date}2022-10-12T00:00:00.000+05:30"
+                    fileReference="/content/dam/wknd-spa-react/oppo.png"
+                    isInOfferPeriod="true"
+                    offerDetails="₹1250 Instant Discount"
+                    offerName="Great Indian Festival"
+                    productDescription="Oppo Mobile"
+                    productPrice="12000"
+                    productTitle="Oppo">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="4"/>
-                        <tablet
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="12"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="12"/>
                     </cq:responsive>
-                </card_copy>
-                <card_copy_896695069
-                    jcr:created="{Date}2020-07-22T11:40:02.876-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-07-22T15:30:08.185-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd-spa-react/components/card"
-                    altValueFromDAM="true"
-                    cardPath="/content/wknd-spa-react/us/en/home/page-2/page-3"
-                    ctaText="Read More"
-                    displayPopupTitle="false"
-                    fileReference="/content/dam/wknd/en/activities/cycling/forest-trail.jpg"
-                    isDecorative="false"
-                    titleFromPage="true"
-                    titleValueFromDAM="true">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="4"/>
-                        <tablet
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="12"/>
-                        <phone
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="12"/>
-                    </cq:responsive>
-                </card_copy_896695069>
-                <text_1887560153
-                    jcr:created="{Date}2020-05-26T12:20:04.888-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-05-26T12:20:20.574-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd-spa-react/components/text"
-                    text="&lt;p>Check out some of the great adventures above!&lt;/p>&#xd;&#xa;"
-                    textIsRich="true"/>
+                </product_741357958>
             </responsivegrid>
         </root>
     </jcr:content>
     <page-1/>
     <page-2/>
+    <category/>
 </jcr:root>

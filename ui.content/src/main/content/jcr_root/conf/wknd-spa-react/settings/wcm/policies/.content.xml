@@ -490,6 +490,21 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1590527695354>
             </header>
+            <navigation jcr:primaryType="nt:unstructured">
+                <policy_1664796861695
+                    jcr:lastModified="{Date}2022-10-03T17:04:58.575+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="WKND NAVIGATION"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    collectAllPages="false"
+                    disableShadowing="false"
+                    navigationRoot="/content/wknd-spa-react/us/en"
+                    structureDepth="3"
+                    structureStart="1">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1664796861695>
+            </navigation>
         </components>
     </wknd-spa-react>
     <wcm jcr:primaryType="nt:unstructured">
@@ -498,12 +513,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <spa-default
                         jcr:description="Includes only SPA-Enabled components."
-                        jcr:lastModified="{Date}2020-07-22T11:33:36.606-07:00"
+                        jcr:lastModified="{Date}2022-10-12T11:32:01.418+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SPA Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd-spa-react/components/card,/apps/wknd-spa-react/components/custom-component,/apps/wknd-spa-react/components/image,/apps/wknd-spa-react/components/text]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd-spa-react/components/cardui,/apps/wknd-spa-react/components/card,/apps/wknd-spa-react/components/custom-component,/apps/wknd-spa-react/components/image,/apps/wknd-spa-react/components/teaser,/apps/wknd-spa-react/components/text,/apps/wknd-spa-react/components/title,/apps/wknd-spa-react/components/navigation,/apps/wknd-spa-react/components/myteaser,/apps/wknd-spa-react/components/mytitle,/apps/wknd-spa-react/components/mytitletext,/apps/wknd-spa-react/components/product,/apps/wknd-spa-react/components/productdetails]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -517,12 +532,12 @@
                         </cq:authoring>
                     </spa-default>
                     <policy_1590527271182
-                        jcr:lastModified="{Date}2020-05-26T14:12:31.302-07:00"
+                        jcr:lastModified="{Date}2022-10-03T17:03:24.541+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SPA Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd-spa-react/components/image,/apps/wknd-spa-react/components/text,/apps/wknd-spa-react/components/header]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd-spa-react/components/image,/apps/wknd-spa-react/components/text,/apps/wknd-spa-react/components/header,/apps/wknd-spa-react/components/navigation]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1590527271182>
                 </responsivegrid>

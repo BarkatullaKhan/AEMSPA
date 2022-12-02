@@ -1,0 +1,39 @@
+.modal-container{
+    /* display: block; */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height: 250px;
+    width: 400px;
+    background-color: rgb(163, 163, 207);
+    padding: 10px;
+    border-radius: 10px;
+}
+.title-container{
+text-align: right;
+display: flex;
+/* justify-content: center;
+align-items: center; */
+width: 100%;
+}
+.title{
+
+}
+
+.close-btn{
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    cursor: pointer;
+}
+
+.decision-btn-contsiner{
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+}
+
+.dbtn{
+    margin-right: 5px;
+}
